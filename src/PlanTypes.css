@@ -1,0 +1,24 @@
+.plan-container{
+    display: flex;
+    flex-direction: column;
+    width:50px;
+    border:solid 1px ;
+    border-radius: 8px;;
+    margin: 0px 5px;
+    flex-grow: 1;
+    padding:10px;
+    cursor:pointer;
+
+}
+h4{
+    color:rgb(2,30,70);;
+    margin:0px;
+    margin-top:35px;
+}
+.plan-container >p{
+    margin: 0px;
+    margin-top:4px;
+}
+.plan-container:hover{
+    border-color: rgb(72,62,255) !important;
+}

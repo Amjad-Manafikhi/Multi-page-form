@@ -1,0 +1,45 @@
+.step-circle{
+    width:25px;
+    height:25px;
+    background-color: rgb(72,62,255);
+    border: solid 2px rgb(191,226,253);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+    color:rgb(191,226,253);
+    font-size: 0.7rem;;
+}
+.step-card{
+    width:100%;
+    display: flex;
+    align-items: center;
+    margin-bottom:20px ;   
+    cursor:pointer; 
+    
+
+}
+.step-name{
+    width:80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;;
+}
+
+.step-value , .step-number{
+    width:100px;
+    margin:1px;
+}
+.step-number{
+    color:rgb(200, 200, 200);
+    font-size: 0.8rem;
+}
+
+.step-value{
+    color: rgb(230,230,230);
+    font-size: 0.9rem;
+    font-weight: 600;
+}

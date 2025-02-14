@@ -1,0 +1,202 @@
+.container{
+  width:670px;
+  margin: auto;
+  margin-top: 30px;;
+  height:430px;
+  background-color: white;;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  border-radius: 8px;
+}
+html{
+  font-family:'inter' ,serif ;
+  font-size:16px ;
+  box-sizing: content-box;
+}
+
+.stepContainer{
+  background-color: rgb(72,62,255);
+  width:170px;
+  padding:20px 17px;
+  border-radius: 8px;
+  height:370px;
+}
+
+
+body{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(240,246,255);
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  height:100%;
+  width:350px;
+  margin:auto;
+}
+.plans-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;;
+  flex-wrap: wrap;
+  margin-top:20px;
+}
+
+
+.time-duration{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin:0px 5px;
+  margin-top:30px;
+  background-color: rgb(240,246,255);;
+  transition: margin-top 0.5s ease;
+  border-radius:8px;
+  
+}
+.toggle {
+  display: none;
+}
+
+.label {
+  background-color: rgb(2,30,70);
+  width: 50px;
+  height: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  position: relative; 
+  display: flex;
+  align-items: center;
+  padding: 2px;
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  left: 2px; 
+  transition: left 0.4s ease;
+}
+
+
+.time{
+  margin:15px 5px;
+  color:rgb(150,162,193);
+}
+
+.ons-container{
+  display: flex;
+  margin:10px 0px;
+  width:100%;
+  padding:10px 15px;
+  border:solid 1px;
+  border-radius: 8px;
+  cursor:pointer;
+  align-items: center;
+  
+}
+.ons-container:hover{
+  border-color: rgb(72,62,255) !important;
+}
+
+.free{
+  color:rgb(2,30,70);;
+}
+.ons-discription{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;;
+  margin-top:5px ;
+  margin-left:20px;
+  padding:5px;
+}
+.ons-discription > h4{
+  margin: 0px;
+  margin-bottom: 5px;
+  color:rgb(2,30,70);
+  font-size: 12px;
+  
+}
+.ons-discription > p , .ons-container >input , .ons-name{
+  margin: 0px ;
+  
+}
+
+.ons-price{
+  margin:0px;
+  margin-left:auto;
+  color:rgb(72,62,255);
+}
+.receipt{
+  width:100%;
+  background-color: rgb(240,246,255);
+  border-radius:8px;
+  padding:20px;
+  font-weight: 600;
+  
+}
+.plan-receipt , .ons-receipt{
+  display: flex;
+  align-items: center;
+  
+}
+.ons-receipt{
+  flex-direction: column;
+}
+.finishing-ons-card , .total{
+  display: flex;
+  align-items: center;
+  width:100%;
+  margin:6px 0px;
+}
+.total-sum{
+  margin:0px;
+  margin-left:auto;
+  color:rgb(72,62,255) !important;
+  text-decoration: underline;
+  font-weight: 600;
+  
+} 
+.plan-name{
+  color:rgb(2,30,70) !important;
+  margin: 0px;
+
+}
+
+
+.price{
+  color:rgb(2,30,70) !important;
+  margin:0px;
+  margin-left:auto;
+}
+hr{
+  width:90%;
+  opacity:0.6;
+  margin: 25px 0px;
+}
+
+.change-btn {
+  margin:0px;
+  padding:0px;
+  margin:5px 0px;
+
+  background: none;
+  border: none;
+  color: rgb(150,150,150);
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.change-btn:hover {
+  color:rgb(72,62,255)  ;
+}
