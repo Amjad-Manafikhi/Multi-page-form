@@ -216,7 +216,7 @@ hr{
 }
 @media only screen and (max-width: 650px){
   html{
-    font-size:14px;;
+    font-size:15px;;
   }
   .container{
     flex-direction: column;
@@ -244,6 +244,9 @@ hr{
     height:355px;
     padding: 0px 20px;
     border-radius: 8px;;
+  }
+  .step-name{
+    display: none !important;
   }
 
   .step-card{
