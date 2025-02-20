@@ -7,6 +7,7 @@ import Info from './Info.jsx'
 import Plan from './Plan.jsx'
 import Add from './Add-ons.jsx'
 import Finish from './Finishing.jsx'
+import Waves from './Waves.jsx'
 
 function App() {
   const [checkedPlan, setCheckedPlan] = React.useState("Arcade");

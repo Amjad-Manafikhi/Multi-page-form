@@ -36,7 +36,7 @@ export default function Plan({checkedPlan,setCheckedPlan,toggleButton,setToggleB
                 {plansElements}
 
             </section>
-            <div className="time-duration" style={toggleButton ? {marginTop:"40px"} : null}>
+            <div className="time-duration" style={toggleButton ? {marginTop:"30px"} : null}>
                 <input type="checkbox" id="test" className="toggle" onChange={() =>setToggleButton((prev)=>!prev) }/>
                 <p className="time" style={!toggleButton ? style : null}>Monthly</p>
                 <label htmlFor="test" className="label">

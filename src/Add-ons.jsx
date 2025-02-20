@@ -28,7 +28,7 @@ export default function Add({ons,setOns,toggleButton}){
         <>
             <h1>Pick add-ons</h1>
             <p>Add-ons help enhance your gaming experience.</p>
-            <section>
+            <section className="ons-elemets">
                 {onsElements}
             </section>
         </>
