@@ -10,6 +10,7 @@
     margin: 0px 5px;
     color:rgb(191,226,253);
     font-size: 12px;;
+    transition: background-color 0.3s ease;
 }
 .step-card{
     width:100%;

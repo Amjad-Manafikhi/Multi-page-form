@@ -96,6 +96,7 @@ body{
 .time{
   margin:15px 5px;
   color:rgb(150,162,193);
+  transition: color 0.5s ease;
 }
 .ons-elements{
   width: 100%;
@@ -113,6 +114,8 @@ body{
   border-radius: 8px;
   cursor:pointer;
   align-items: center;
+  transition: box-shadow 0.5s ease;
+  
 
   
 }
