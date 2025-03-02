@@ -19,7 +19,9 @@ export default function(props) {
       const style = {
         borderColor: props.checked ? "blue" : "rgb(150, 150, 150)",
         backgroundColor: props.checked ? "rgb(239, 241, 250)" : "white",
+        height:props.toggleButton ? "127px" : "112px",
         ...(props.checked ? shadow : null) // Only add shadow if props.shadow is true
+
       };
 
       const [showFreeText, setShowFreeText] = React.useState(false);
