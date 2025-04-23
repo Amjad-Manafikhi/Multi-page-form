@@ -36,11 +36,6 @@ Includes an **Edit** button that takes the user back to the **Plan Selection** s
 
 ---
 
-## 📸 Screenshots
-_Add some screenshots here showing each step of the form UI._
-
----
-
 ## 📂 Setup
 
 ```bash
