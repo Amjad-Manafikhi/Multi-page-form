@@ -24,14 +24,12 @@ Displays a summary of the user’s selections, including:
 - Selected add-ons
 - Total price
 
-Includes an **Edit** button that takes the user back to the **Plan Selection** step for changes before final confirmation.
+Includes an **Change** button that takes the user back to the **Plan Selection** step for changes before final confirmation.
 
 ---
 
 ## 🚀 Technologies Used
 - **React** (functional components + hooks)
-- **CSS Modules / Tailwind CSS** (or whatever was used in styling)
-- **React Router (optional)** for routing steps (if used)
 - Form validation logic
 
 ---
