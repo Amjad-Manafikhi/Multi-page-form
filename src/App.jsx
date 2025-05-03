@@ -99,7 +99,7 @@ function App() {
         {stepsElements}
       </div>
       <div className='main'>
-        {checkedValue === 1 && <Info />}
+        {checkedValue === 1 && <Info setCheckedValue={setCheckedValue}/>}
         {checkedValue === 2 && <Plan
           checkedPlan={checkedPlan}
           setCheckedPlan={setCheckedPlan}

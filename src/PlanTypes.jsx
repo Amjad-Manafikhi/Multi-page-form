@@ -41,7 +41,7 @@ export default function(props) {
             <img src={images[props.type]}   alt={props.type} width="33"  />
             <h4>{props.type}</h4>
             <p>${props.toggleButton ? `${props.price*10}/yr` : `${props.price}/mo`}</p>
-            {showFreeText&&<p className="free">2 months free</p>}
+            {showFreeText&&<p className="free" >2 months free</p>}
         </div>
     )
 }
