@@ -3,6 +3,7 @@ import Arcade from '/icon-arcade.svg';
 import Advanced from '/icon-advanced.svg';
 import Pro from '/icon-pro.svg';
 import "./PlanTypes.css"
+import AddingEffect from './AddingEffect.jsx';
 export default function(props) {
 
     const images = {
@@ -34,13 +35,15 @@ export default function(props) {
             setShowFreeText(false);
         }
         }, [props.toggleButton]);
-     
+        console.log(<AddingEffect prevNumber={props.price} newNumber={props.price*10}/>)
     
     return (
         <div className="plan-container" onClick={() => props.handlePlan((props.type))} style={style}>
             <img src={images[props.type]}   alt={props.type} width="33"  />
             <h4>{props.type}</h4>
-            <p>${props.toggleButton ? `${props.price*10}/yr` : `${props.price}/mo`}</p>
+            <p>${props.toggleButton ? 
+              <AddingEffect prevNumber={props.price} newNumber={props.price*10}/>
+              : <AddingEffect prevNumber={props.price*10} newNumber={props.price}/>}{props.toggleButton ? "/yr" : "/mo"}</p>
             {showFreeText&&<p className="free" >2 months free</p>}
         </div>
     )

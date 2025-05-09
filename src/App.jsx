@@ -68,7 +68,7 @@ function App() {
           },
           {
               type:"Pro",
-              price:15,
+              price:150,
               checked: "Pro"===checkedPlan ? true :false
   
           }
