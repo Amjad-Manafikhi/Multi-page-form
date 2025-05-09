@@ -35,15 +35,14 @@ export default function(props) {
             setShowFreeText(false);
         }
         }, [props.toggleButton]);
-        console.log(<AddingEffect prevNumber={props.price} newNumber={props.price*10}/>)
     
     return (
         <div className="plan-container" onClick={() => props.handlePlan((props.type))} style={style}>
             <img src={images[props.type]}   alt={props.type} width="33"  />
             <h4>{props.type}</h4>
             <p>${props.toggleButton ? 
-              <AddingEffect prevNumber={props.price} newNumber={props.price*10}/>
-              : <AddingEffect prevNumber={props.price*10} newNumber={props.price}/>}{props.toggleButton ? "/yr" : "/mo"}</p>
+              <AddingEffect prevNumber={props.price} newNumber={props.price*10} time={500}/>
+              : <AddingEffect prevNumber={props.price*10} newNumber={props.price} time={500}/>}{props.toggleButton ? "/yr" : "/mo"}</p>
             {showFreeText&&<p className="free" >2 months free</p>}
         </div>
     )
